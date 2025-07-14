@@ -1,0 +1,19 @@
+F# has type inference
+In F# parallelism and concurrency are built in.
+In F# data is immutable by default
+F# supports both functional and object oriented paradigms
+
+to run F# in interactive mode in terminal => dotnet fsi
+to exit => #q;;
+
+In F# expression end with ";;"
+
+F# files end with ".fsx" 
+
+To execute only some lines select the lines you want to execute and press Alt + Enter
+
+nuget is the package manager 
+
+to import packages add the line => #r "nuget:<package-name>"
+
+Pipeline Oriented Programming ???

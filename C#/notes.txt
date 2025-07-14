@@ -1,0 +1,31 @@
+.NET  = Ecosystem (Languages + Runtimes + Libraries)
+Language = C#, F#, VisualBasic
+Runtimes = Core Common Language Runtime(CLR) (which runs the code written in above langauges)
+Languages = Base Class Libraries(BCL) 
+
+BCL is built into C#
+
+C# equivalent to Java (strongly typed, garbage collected)
+F# functional langauge ?
+
+dotnet cli - dotnet command line interface
+nuget      - official .NET package manager
+dotnet new ... => templates
+dotnet run     => compile and run
+dotnet publish => ready the code for deployment
+
+dotnet new console --output=HelloWorld => create a new C# console app in HelloWorld folder
+
+Program.cs is the entry point of all .NET(C#) projects
+
+.NET supports string interpolation
+
+String Interpolation(according to Claude) : "String interpolation is a feature in programming languages that allows you to embed expressions or variables directly within string literals, making it easier to construct strings dynamically"
+
+strings should only be put inside "" not '' 
+
+all statements should end with a ";" 
+
+String Interpolation == String Concatenation ??? 
+
+Strings in C# are immutable. So all string methods return a new string in C#
