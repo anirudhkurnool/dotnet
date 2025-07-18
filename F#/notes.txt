@@ -1,3 +1,5 @@
+Getting Started with F# - https://www.youtube.com/watch?v=kSfi6kcZrzM
+
 F# has type inference
 In F# parallelism and concurrency are built in.
 In F# data is immutable by default
@@ -10,6 +12,8 @@ In F# expression end with ";;"
 
 F# files end with ".fsx" 
 
+Using the Ionide F# vscode extension
+
 To execute only some lines select the lines you want to execute and press Alt + Enter
 
 nuget is the package manager 
@@ -17,3 +21,18 @@ nuget is the package manager
 to import packages add the line => #r "nuget:<package-name>"
 
 Pipeline Oriented Programming ???
+
+Composable Type System ??? 
+
+Domain Modelling ??? 
+
+Three ways of writing and organizing F# code 
+(1)Interactive 
+(2)Scripting(like Python) { dotnet fsi fsharpCodeFile.fsx}
+(3)Compiled into a executable (like C# or Java) { dotnet new -lang F# ; dotnet run}
+
+most things in F# aren't allowed to be null
+
+complex functions can be constructed using indentation and not {}
+
+anything between {} is called as a computational expression and inside this expression you can change behavior of the compiler 

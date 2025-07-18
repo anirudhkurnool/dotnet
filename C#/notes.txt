@@ -29,3 +29,6 @@ all statements should end with a ";"
 String Interpolation == String Concatenation ??? 
 
 Strings in C# are immutable. So all string methods return a new string in C#
+
+int  - 32bit(4 bytes)
+long - 64bit(8 bytes)
