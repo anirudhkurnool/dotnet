@@ -32,3 +32,13 @@ Strings in C# are immutable. So all string methods return a new string in C#
 
 int  - 32bit(4 bytes)
 long - 64bit(8 bytes)
+
+OOPS 
+(1)Encapsulation
+(2)Polymorphism
+(3)Inheritance
+(4)Abstraction
+
+you can't create a instance of a abstract class
+
+In C# all classed inherit from the "Object" class
